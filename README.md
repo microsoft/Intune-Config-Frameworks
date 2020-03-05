@@ -20,6 +20,8 @@ Importing the JSON templates into an Intune tenant requires the following:
 
 ## Additional resources
 
+- [Intune Graph Samples](https://github.com/microsoftgraph/powershell-intune-samples)
+
 ## Copyright
 
 Copyright (c) 2020 Microsoft Corporation. ALl rights reserved.
