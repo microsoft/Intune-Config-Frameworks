@@ -14,11 +14,11 @@ The APP data protection configuration framework is organized into three distinct
 - Level 3 enterprise high data protection – Microsoft recommends this configuration for devices run by an organization with a larger or more sophisticated security team, or for specific users or groups who are at uniquely high risk (as one example, one organization identified users who handle data whose theft would directly and seriously impact their stock price). An organization likely to be targeted by well-funded and sophisticated adversaries should aspire to this configuration.
 
 The level-2-enterprise-enhanced-data-protection-*platform*.json templates include the following settings that may need adjustment prior to user assignment:
-1. Min OS Version is set to 12.4.4 for iOS and 8.0 for Android.
+1. **Min OS Version** is set to 12.4.4 for iOS and 8.0 for Android.
 
 The level-3-enterprise-high-data-protection-*platform*.json templates include the following settings that may need adjustment prior to user assignment:
-1. Min OS Version is set to 12.4.4 for iOS and 8.0 for Android.
-2. Max allowed threat level is set to Secured / Block access.
+1. **Min OS Version** is set to 12.4.4 for iOS and 8.0 for Android.
+2. **Max allowed threat level** is set to Secured / Block access.
 
 For more information, see [Data protection framework using app protection policies](https://docs.microsoft.com/intune/apps/app-protection-framework).
 
