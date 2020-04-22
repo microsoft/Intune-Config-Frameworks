@@ -1,6 +1,6 @@
 {
-    "displayName":  "level-1-enterprise-basic-data-protection-Android",
-    "description":  "",
+    "displayName":  "Android Enterprise Basic Data Protection",
+    "description":  "This app protection policy ensures that apps with work or school account data are protected with a PIN, encrypted, validates Android device attestation, and enables selective wipe operations.",
     "roleScopeTagIds":  [
                             "0"
                         ],

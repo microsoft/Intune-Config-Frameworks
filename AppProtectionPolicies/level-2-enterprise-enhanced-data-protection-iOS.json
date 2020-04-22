@@ -1,6 +1,6 @@
 {
-    "displayName":  "level-2-enterprise-enhanced-data-protection-iOS",
-    "description":  "",
+    "displayName":  "iOS/iPadOS Enterprise Enhanced Data Protection",
+    "description":  "This app protection policy introduces data leakage prevention mechanisms and minimum OS requirements. This is the configuration that is applicable to most mobile users accessing work or school data.",
     "roleScopeTagIds":  [
                             "0"
                         ],
