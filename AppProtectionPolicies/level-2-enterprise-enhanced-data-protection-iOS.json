@@ -29,7 +29,7 @@
     "printBlocked":  false,
     "fingerprintBlocked":  false,
     "disableAppPinIfDevicePinIsSet":  false,
-    "minimumRequiredOsVersion":  "12.4.4",
+    "minimumRequiredOsVersion":  "12.4.6",
     "minimumWarningOsVersion":  null,
     "minimumRequiredAppVersion":  null,
     "minimumWarningAppVersion":  null,
