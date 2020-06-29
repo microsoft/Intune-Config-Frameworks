@@ -7,8 +7,8 @@ With Android 5.0, Google introduced a new management profile with the introducti
 
 Android Enterprise supports several enrollment scenarios, two of which are covered as part of this framework:
 
-- Android Enterprise work profile – this enrollment model is typically used for personally-owned devices, where IT wants to provide a clear separation boundary between work and personal data. Policies controlled by IT ensure that the work data cannot be transferred into the personal profile.
-- Android Enterprise fully managed devices – these devices are corporate-owned, associated with a single user, and used exclusively for work and not personal use.
+- [Android Enterprise work profile](https://docs.microsoft.com/intune/android-work-profile-enroll) – this enrollment model is typically used for personally-owned devices, where IT wants to provide a clear separation boundary between work and personal data. Policies controlled by IT ensure that the work data cannot be transferred into the personal profile.
+- [Android Enterprise fully managed devices](https://docs.microsoft.com/intune/android-fully-managed-enroll) – these devices are corporate-owned, associated with a single user, and used exclusively for work and not personal use.
 
 The Android Enterprise security configuration framework is organized into several distinct configuration scenarios, providing guidance for work profile and fully managed scenarios.
 
