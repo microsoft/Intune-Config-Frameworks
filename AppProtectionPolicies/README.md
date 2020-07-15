@@ -7,18 +7,22 @@ When configuring App Protection Policies, the number of various settings and opt
 
 The APP data protection configuration framework is organized into three distinct configuration scenarios:
 
-- Level 1 enterprise basic data protection – Microsoft recommends this configuration as the minimum data protection configuration for an enterprise device.
+- Enterprise basic data protection (Level 1) – Microsoft recommends this configuration as the minimum data protection configuration for an enterprise device.
 
-- Level 2 enterprise enhanced data protection – Microsoft recommends this configuration for devices where users access sensitive or confidential information. This configuration is applicable to most mobile users accessing work or school data. Some of the controls may impact user experience.
+- Enterprise enhanced data protection (Level 2) – Microsoft recommends this configuration for devices where users access sensitive or confidential information. This configuration is applicable to most mobile users accessing work or school data. Some of the controls may impact user experience.
 
-- Level 3 enterprise high data protection – Microsoft recommends this configuration for devices run by an organization with a larger or more sophisticated security team, or for specific users or groups who are at uniquely high risk (as one example, one organization identified users who handle data whose theft would directly and seriously impact their stock price). An organization likely to be targeted by well-funded and sophisticated adversaries should aspire to this configuration.
+- Enterprise high data protection (Level 3) – Microsoft recommends this configuration for devices run by an organization with a larger or more sophisticated security team, or for specific users or groups who are at uniquely high risk (as one example, one organization identified users who handle data whose theft would directly and seriously impact their stock price). An organization likely to be targeted by well-funded and sophisticated adversaries should aspire to this configuration.
 
 The level-2-enterprise-enhanced-data-protection-*platform*.json templates include the following settings that may need adjustment prior to user assignment:
-1. **Min OS Version** is set to 12.4.4 for iOS and 8.0 for Android.
+
+1. **Min OS Version** is set to 12.4.6 for iOS and 5.0 for Android.
 
 The level-3-enterprise-high-data-protection-*platform*.json templates include the following settings that may need adjustment prior to user assignment:
-1. **Min OS Version** is set to 12.4.4 for iOS and 8.0 for Android.
-2. **Max allowed threat level** is set to Secured / Block access.
+
+1. **Min OS Version** is set to 12.4.6 for iOS and 8.0 for Android.
+1. **Max allowed threat level** is set to Secured / Block access.
+1. **Transfer telecommunication data to** is set to "replace_with_dialer_app_url_scheme" or iOS and "Any policy-managed dialer app" for Android. 
+1. **Select keyboards to approve** in Android may need to be customized with the supported list of Android keyboards for your organization.
 
 For more information, see [Data protection framework using app protection policies](https://docs.microsoft.com/intune/apps/app-protection-framework).
 
