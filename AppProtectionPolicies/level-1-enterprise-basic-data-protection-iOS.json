@@ -1,5 +1,5 @@
 {
-    "displayName":  "iOS/iPadOS Enterprise Basic Data Protection",
+    "displayName":  "iOS/iPadOS Enterprise Basic Data Protection v1.1",
     "description":  "This app protection policy ensures that apps with work or school account data are protected with a PIN, encrypted, and enables selective wipe operations.",
     "roleScopeTagIds":  [
                             "0"
@@ -50,6 +50,7 @@
                                           "camera"
                                       ],
     "appActionIfUnableToAuthenticateUser":  null,
+    "dialerRestrictionLevel":  "allApps",
     "isAssigned":  false,
     "targetedAppManagementLevels":  "unspecified",
     "appDataEncryptionType":  "whenDeviceLocked",
@@ -64,10 +65,11 @@
     "disableProtectionOfManagedOutboundOpenInData":  false,
     "protectInboundDataFromUnknownSources":  false,
     "customBrowserProtocol":  "",
+    "customDialerAppProtocol":  null,
     "exemptedAppProtocols":  [
                                  {
                                      "name":  "Default",
-                                     "value":  "tel;telprompt;skype;app-settings;calshow;itms;itmss;itms-apps;itms-appss;itms-services;"
+                                     "value":  "skype;app-settings;calshow;itms;itmss;itms-apps;itms-appss;itms-services;"
                                  }
                              ],
     "apps":  [

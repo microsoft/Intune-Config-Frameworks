@@ -1,5 +1,5 @@
 {
-    "displayName":  "iOS/iPadOS Enterprise Enhanced Data Protection",
+    "displayName":  "iOS/iPadOS Enterprise Enhanced Data Protection v1.1",
     "description":  "This app protection policy introduces data leakage prevention mechanisms and minimum OS requirements. This is the configuration that is applicable to most mobile users accessing work or school data.",
     "roleScopeTagIds":  [
                             "0"
@@ -51,6 +51,7 @@
                                           "camera"
                                       ],
     "appActionIfUnableToAuthenticateUser":  null,
+    "dialerRestrictionLevel":  "allApps",
     "isAssigned":  false,
     "targetedAppManagementLevels":  "unspecified",
     "appDataEncryptionType":  "whenDeviceLocked",
@@ -65,10 +66,11 @@
     "disableProtectionOfManagedOutboundOpenInData":  false,
     "protectInboundDataFromUnknownSources":  false,
     "customBrowserProtocol":  "",
+    "customDialerAppProtocol":  null,
     "exemptedAppProtocols":  [
                                  {
                                      "name":  "Default",
-                                     "value":  "tel;telprompt;skype;app-settings;calshow;itms;itmss;itms-apps;itms-appss;itms-services;"
+                                     "value":  "skype;app-settings;calshow;itms;itmss;itms-apps;itms-appss;itms-services;"
                                  }
                              ],
     "apps":  [
