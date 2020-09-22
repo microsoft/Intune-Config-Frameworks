@@ -1,5 +1,5 @@
 {
-    "displayName":  "Android Enterprise Enhanced Data Protection v1.1",
+    "displayName":  "Android Enterprise Enhanced Data Protection v1.2",
     "description":  "This app protection policy introduces data leakage prevention mechanisms and minimum OS requirements. This is the configuration that is applicable to most mobile users accessing work or school data.",
     "roleScopeTagIds":  [
                             "0"
@@ -79,6 +79,7 @@
     "appActionIfAndroidDeviceModelNotAllowed":  "block",
     "customDialerAppPackageId":  null,
     "customDialerAppDisplayName":  null,
+    "biometricAuthenticationBlocked":  true,
     "exemptedAppPackages":  [
 
                             ],
