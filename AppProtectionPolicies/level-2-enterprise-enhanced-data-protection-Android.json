@@ -1,5 +1,5 @@
 {
-    "displayName":  "Android Enterprise Enhanced Data Protection v1.2",
+    "displayName":  "Android Enterprise Enhanced Data Protection v1.4",
     "description":  "This app protection policy introduces data leakage prevention mechanisms and minimum OS requirements. This is the configuration that is applicable to most mobile users accessing work or school data.",
     "roleScopeTagIds":  [
                             "0"
@@ -50,7 +50,7 @@
                                           "sharePoint",
                                           "camera"
                                       ],
-    "appActionIfUnableToAuthenticateUser":  null,
+    "appActionIfUnableToAuthenticateUser":  "block",
     "dialerRestrictionLevel":  "allApps",
     "isAssigned":  false,
     "targetedAppManagementLevels":  "unspecified",
@@ -80,6 +80,12 @@
     "customDialerAppPackageId":  null,
     "customDialerAppDisplayName":  null,
     "biometricAuthenticationBlocked":  true,
+    "requiredAndroidSafetyNetEvaluationType":  "basic",
+    "blockAfterCompanyPortalUpdateDeferralInDays":  0,
+    "warnAfterCompanyPortalUpdateDeferralInDays":  0,
+    "wipeAfterCompanyPortalUpdateDeferralInDays":  0,
+    "deviceLockRequired":  false,
+    "appActionIfDeviceLockNotSet":  "block",
     "exemptedAppPackages":  [
 
                             ],

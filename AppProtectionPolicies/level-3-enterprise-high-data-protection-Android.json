@@ -1,5 +1,5 @@
 {
-    "displayName":  "Android Enterprise High Data Protection v1.3",
+    "displayName":  "Android Enterprise High Data Protection v1.4",
     "description":  "This app protection policy is for devices used by specific users or groups who are uniquely high risk (for example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization).",
     "roleScopeTagIds":  [
                             "0"
@@ -49,7 +49,7 @@
                                           "oneDriveForBusiness",
                                           "sharePoint"
                                       ],
-    "appActionIfUnableToAuthenticateUser":  null,
+    "appActionIfUnableToAuthenticateUser":  "block",
     "dialerRestrictionLevel":  "managedApps",
     "isAssigned":  false,
     "targetedAppManagementLevels":  "unspecified",
@@ -79,6 +79,12 @@
     "customDialerAppPackageId":  "",
     "customDialerAppDisplayName":  "",
     "biometricAuthenticationBlocked":  false,
+    "requiredAndroidSafetyNetEvaluationType":  "basic",
+    "blockAfterCompanyPortalUpdateDeferralInDays":  0,
+    "warnAfterCompanyPortalUpdateDeferralInDays":  0,
+    "wipeAfterCompanyPortalUpdateDeferralInDays":  0,
+    "deviceLockRequired":  false,
+    "appActionIfDeviceLockNotSet":  "block",
     "exemptedAppPackages":  [
 
                             ],
@@ -109,7 +115,7 @@
                               },
                               {
                                   "name":  "com.google.android.inputmethod.korean",
-                                  "value":  "Google Korean Input:"
+                                  "value":  "Google Korean Input"
                               },
                               {
                                   "name":  "com.google.android.apps.handwriting.ime",
@@ -122,6 +128,10 @@
                               {
                                   "name":  "com.samsung.android.svoiceime",
                                   "value":  "Samsung voice input"
+                              },
+                              {
+                                  "name":  "com.samsung.android.honeyboard",
+                                  "value":  "Samsung Keyboard"
                               }
                           ],
     "apps":  [

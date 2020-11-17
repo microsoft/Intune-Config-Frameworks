@@ -1,5 +1,5 @@
 {
-    "displayName":  "Android Enterprise Basic Data Protection v1.2",
+    "displayName":  "Android Enterprise Basic Data Protection v1.4",
     "description":  "This app protection policy ensures that apps with work or school account data are protected with a PIN, encrypted, validates Android device attestation, and enables selective wipe operations.",
     "roleScopeTagIds":  [
                             "0"
@@ -79,6 +79,12 @@
     "customDialerAppPackageId":  null,
     "customDialerAppDisplayName":  null,
     "biometricAuthenticationBlocked":  false,
+    "requiredAndroidSafetyNetEvaluationType":  "basic",
+    "blockAfterCompanyPortalUpdateDeferralInDays":  0,
+    "warnAfterCompanyPortalUpdateDeferralInDays":  0,
+    "wipeAfterCompanyPortalUpdateDeferralInDays":  0,
+    "deviceLockRequired":  false,
+    "appActionIfDeviceLockNotSet":  "block",
     "exemptedAppPackages":  [
 
                             ],

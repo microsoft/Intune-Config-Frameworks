@@ -1,5 +1,5 @@
 {
-    "displayName":  "iOS/iPadOS Enterprise Enhanced Data Protection v1.1",
+    "displayName":  "iOS/iPadOS Enterprise Enhanced Data Protection v1.4",
     "description":  "This app protection policy introduces data leakage prevention mechanisms and minimum OS requirements. This is the configuration that is applicable to most mobile users accessing work or school data.",
     "roleScopeTagIds":  [
                             "0"
@@ -29,7 +29,7 @@
     "printBlocked":  false,
     "fingerprintBlocked":  false,
     "disableAppPinIfDevicePinIsSet":  false,
-    "minimumRequiredOsVersion":  "12.4.6",
+    "minimumRequiredOsVersion":  "13.7",
     "minimumWarningOsVersion":  null,
     "minimumRequiredAppVersion":  null,
     "minimumWarningAppVersion":  null,
@@ -50,7 +50,7 @@
                                           "sharePoint",
                                           "camera"
                                       ],
-    "appActionIfUnableToAuthenticateUser":  null,
+    "appActionIfUnableToAuthenticateUser":  "block",
     "dialerRestrictionLevel":  "allApps",
     "isAssigned":  false,
     "targetedAppManagementLevels":  "unspecified",
