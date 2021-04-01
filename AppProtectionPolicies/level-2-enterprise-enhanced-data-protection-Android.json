@@ -1,5 +1,5 @@
 {
-    "displayName":  "Android Enterprise Enhanced Data Protection v1.6",
+    "displayName":  "Android Enterprise Enhanced Data Protection v1.7",
     "description":  "This app protection policy introduces data leakage prevention mechanisms and minimum OS requirements. This is the configuration that is applicable to most mobile users accessing work or school data.",
     "roleScopeTagIds":  [
                             "0"
@@ -29,7 +29,7 @@
     "printBlocked":  false,
     "fingerprintBlocked":  false,
     "disableAppPinIfDevicePinIsSet":  false,
-    "minimumRequiredOsVersion":  "5.0",
+    "minimumRequiredOsVersion":  "6.0",
     "minimumWarningOsVersion":  null,
     "minimumRequiredAppVersion":  null,
     "minimumWarningAppVersion":  null,

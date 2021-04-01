@@ -1,7 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.androidWorkProfileCompliancePolicy",
   "description": "This compliance policy is the minimum security configuration for personal devices where users access work or school data. This configuration is applicable to most mobile users.",
-  "displayName": "Work profile basic security compliance (Level 1)",
+  "displayName": "Work profile basic security compliance (Level 1) v1.1",
   "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
   "passwordRequired": true,
   "passwordMinimumLength": 6,
@@ -17,7 +17,7 @@
   "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
   "advancedThreatProtectionRequiredSecurityLevel": "unavailable",
   "securityBlockJailbrokenDevices": true,
-  "osMinimumVersion": "5.0",
+  "osMinimumVersion": "6.0",
   "osMaximumVersion": null,
   "minAndroidSecurityPatchLevel": null,
   "storageRequireEncryption": true,
