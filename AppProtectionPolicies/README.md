@@ -15,11 +15,11 @@ The APP data protection configuration framework is organized into three distinct
 
 The level-2-enterprise-enhanced-data-protection-*platform*.json templates include the following settings that may need adjustment prior to user assignment:
 
-1. **Min OS Version** is set to 12.4.6 for iOS and 5.0 for Android.
+1. **Min OS Version** is set to 13.7 for iOS and 6.0 for Android.
 
 The level-3-enterprise-high-data-protection-*platform*.json templates include the following settings that may need adjustment prior to user assignment:
 
-1. **Min OS Version** is set to 12.4.6 for iOS and 8.0 for Android.
+1. **Min OS Version** is set to 13.7 for iOS and 9.0 for Android.
 1. **Max allowed threat level** is set to Secured / Block access.
 1. **Transfer telecommunication data to** is set to "replace_with_dialer_app_url_scheme" or iOS and "Any policy-managed dialer app" for Android. 
 1. **Select keyboards to approve** in Android may need to be customized with the supported list of Android keyboards for your organization.
