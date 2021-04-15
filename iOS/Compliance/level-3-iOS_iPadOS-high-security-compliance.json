@@ -1,0 +1,27 @@
+{
+    "@odata.type":  "#microsoft.graph.iosCompliancePolicy",
+    "description":  "This compliance policy is for devices used by specific users or groups who are uniquely high risk (for example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization).",
+    "displayName":  "iOS/iPadOS high security compliance (Level 3) v1.0",
+    "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],   
+    "passcodeBlockSimple":  true,
+    "passcodeExpirationDays":  365,
+    "passcodeMinimumLength":  6,
+    "passcodeMinutesOfInactivityBeforeLock":  5,
+    "passcodeMinutesOfInactivityBeforeScreenTimeout":  5,
+    "passcodePreviousPasscodeBlockCount":  null,
+    "passcodeMinimumCharacterSetCount":  null,
+    "passcodeRequiredType":  "numeric",
+    "passcodeRequired":  true,
+    "osMinimumVersion":  "14.4",
+    "osMaximumVersion":  null,
+    "osMinimumBuildVersion":  null,
+    "osMaximumBuildVersion":  null,
+    "securityBlockJailbrokenDevices":  true,
+    "deviceThreatProtectionEnabled":  true,
+    "deviceThreatProtectionRequiredSecurityLevel":  "secured",
+    "advancedThreatProtectionRequiredSecurityLevel":  "secured",
+    "managedEmailProfileRequired":  false,
+    "restrictedApps":  [
+
+                       ]
+}
