@@ -1,5 +1,5 @@
 
-# iOS/iPadOS Security Configuration Framework
+# iOS/iPadOS Security Configuration Framework - Compliance
 
 As mobile usage becomes more prevalent in your organizations, so does the need to protect your work or school data on those devices. One method used to protect that data is through device enrollment. Device enrollment enables organizations to deploy compliance policies (PIN strength, jailbreak/root validation, etc.), as well as configuration policies (WIFI, certificates, VPN, etc.). Device enrollment also enables organizations to manage app lifecycle.
 
@@ -9,6 +9,11 @@ iOS/iPadOS supports several enrollment scenarios, two of which are covered as pa
 - [Supervised automated device enrollment for corporate-owned devices](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment-program-enroll-ios): These devices are corporate-owned, associated with a single user, and used exclusively for work and not personal use.
 
 The iOS/iPadOS security configuration framework is organized into several distinct configuration scenarios, providing guidance for personally owned and supervised devices.
+
+For device compliance:
+
+- Basic security (Level 1) – Microsoft recommends this configuration as the minimum security configuration for personally owned and supervised devices where users access work or school data. This is done by enforcing password policies and ensuring the device is not jailbroken. This configuration is applicable to most mobile users accessing work or school data on a device.
+- High security (Level 3) – Microsoft recommends this configuration for devices used by specific users or groups who are uniquely high risk (users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization). This configuration enacts stronger password policies and requires a mobile threat defense solution.
 
 For more information, see [iOS/iPadOS Security Configuration Framework](https://docs.microsoft.com/mem/intune/enrollment/ios-ipados-configuration-framework).
 
@@ -55,7 +60,7 @@ Importing the JSON templates into an Intune tenant requires the following:
     ```
     Note: If your user account is targeted for device based conditional access your device must be enrolled or compliant to pass authentication.
 
-7. The script will prompt you to enter the full path to the JSON template file. Enter the full path escaping with quotation marks; for example "C:\Framework\JSON\level-2-iOS_iPadOS-personal-enhanced-security-configuration.json"
+7. The script will prompt you to enter the full path to the JSON template file. Enter the full path escaping with quotation marks; for example "C:\Framework\JSON\level-1-iOS_iPadOS-basic-security-compliance.json"
 
     ```
     Please specify a path to a JSON file to import data from e.g. C:\IntuneOutput\Policies\policy.json:

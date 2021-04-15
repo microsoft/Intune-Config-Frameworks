@@ -55,7 +55,7 @@ Importing the JSON templates into an Intune tenant requires the following:
     ```
     Note: If your user account is targeted for device based conditional access your device must be enrolled or compliant to pass authentication.
 
-7. The script will prompt you to enter the full path to the JSON template file. Enter the full path escaping with quotation marks; for example "C:\Framework\JSON\level-2-iOS_iPadOS-personal-enhanced-security-configuration.json"
+7. The script will prompt you to enter the full path to the JSON template file. Enter the full path escaping with quotation marks; for example "C:\Framework\JSON\level-1-wp-basic-security-compliance.json"
 
     ```
     Please specify a path to a JSON file to import data from e.g. C:\IntuneOutput\Policies\policy.json:
