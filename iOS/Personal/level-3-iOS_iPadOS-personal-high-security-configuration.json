@@ -5,7 +5,7 @@
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "description":  "This device restriction configuration policy is for devices used by specific users or groups who are uniquely high risk (for example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization).",
-    "displayName":  "iOS/iPadOS Personal high security configuration (Level 3) v1.0",
+    "displayName":  "iOS/iPadOS Personal high security configuration (Level 3) v1.1",
     "accountBlockModification":  false,
     "activationLockAllowWhenSupervised":  false,
     "airDropBlocked":  false,
@@ -186,6 +186,10 @@
     "sharedDeviceBlockTemporarySessions":  false,
     "appClipsBlocked":  false,
     "applePersonalizedAdsBlocked":  false,
+    "nfcBlocked":  false,
+    "autoUnlockBlocked":  true,
+    "unpairedExternalBootToRecoveryAllowed":  false,
+    "onDeviceOnlyDictationForced":  true,
     "kioskModeAppType":  "notConfigured",
     "appsSingleAppModeList":  [
 
