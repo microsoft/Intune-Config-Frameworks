@@ -1,5 +1,5 @@
 {
-    "displayName":  "Android Enterprise High Data Protection v1.7",
+    "displayName":  "Android Enterprise High Data Protection v1.8",
     "description":  "This app protection policy is for devices used by specific users or groups who are uniquely high risk (for example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization).",
     "roleScopeTagIds":  [
                             "0"
@@ -56,10 +56,10 @@
     "dialerRestrictionLevel":  "managedApps",
     "isAssigned":  false,
     "targetedAppManagementLevels":  "unspecified",
+    "appGroupType":  "allCoreMicrosoftApps",
     "screenCaptureBlocked":  true,
     "disableAppEncryptionIfDeviceEncryptionIsEnabled":  false,
     "encryptAppData":  true,
-    "deployedAppCount":  13,
     "minimumRequiredPatchVersion":  "0000-00-00",
     "minimumWarningPatchVersion":  "0000-00-00",
     "minimumWipePatchVersion":  "0000-00-00",
@@ -88,6 +88,7 @@
     "wipeAfterCompanyPortalUpdateDeferralInDays":  0,
     "deviceLockRequired":  true,
     "appActionIfDeviceLockNotSet":  "block",
+    "connectToVpnOnLaunch":  false,
     "exemptedAppPackages":  [
 
                             ],
@@ -137,111 +138,5 @@
                                   "value":  "Samsung Keyboard"
                               }
                           ],
-    "apps":  [
-                 {
-                     "id":  "com.microsoft.emmx.android",
-                     "version":  "-725393251",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.emmx"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.excel.android",
-                     "version":  "-1789826587",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.excel"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.officehub.android",
-                     "version":  "-1091809935",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.officehub"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.officehubhl.android",
-                     "version":  "-1175805259",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.officehubhl"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.officehubrow.android",
-                     "version":  "-1861979965",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.officehubrow"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.onenote.android",
-                     "version":  "186482170",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.onenote"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.outlook.android",
-                     "version":  "1146701235",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.outlook"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.powerpoint.android",
-                     "version":  "1411665537",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.powerpoint"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.office.word.android",
-                     "version":  "2122351424",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.office.word"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.sharepoint.android",
-                     "version":  "84773357",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.sharepoint"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.skydrive.android",
-                     "version":  "1887770705",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.skydrive"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.teams.android",
-                     "version":  "1900143244",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.teams"
-                                             }
-                 },
-                 {
-                     "id":  "com.microsoft.todos.android",
-                     "version":  "1697858135",
-                     "mobileAppIdentifier":  {
-                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
-                                                 "packageId":  "com.microsoft.todos"
-                                             }
-                 }
-             ],
     "@odata.type":  "#microsoft.graph.androidManagedAppProtection"
 }
