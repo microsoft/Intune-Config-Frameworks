@@ -5,7 +5,7 @@
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "description":  "This device restriction configuration policy is the minimum security configuration for corporate owned supervised devices where users access work or school data.",
-    "displayName":  "iOS/iPadOS Supervised basic security configuration (Level 1) v1.0",
+    "displayName":  "iOS/iPadOS Supervised basic security configuration (Level 1) v1.1",
     "accountBlockModification":  false,
     "activationLockAllowWhenSupervised":  true,
     "airDropBlocked":  false,
@@ -186,6 +186,13 @@
     "sharedDeviceBlockTemporarySessions":  false,
     "appClipsBlocked":  false,
     "applePersonalizedAdsBlocked":  false,
+    "nfcBlocked":  false,
+    "autoUnlockBlocked":  false,
+    "unpairedExternalBootToRecoveryAllowed":  false,
+    "onDeviceOnlyDictationForced":  false,
+    "wiFiConnectToAllowedNetworksOnlyForced":  false,
+    "onDeviceOnlyTranslationForced":  false,
+    "managedPasteboardRequired":  false,
     "kioskModeAppType":  "notConfigured",
     "appsSingleAppModeList":  [
 

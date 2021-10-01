@@ -1,7 +1,7 @@
 {
     "@odata.type":  "#microsoft.graph.iosCompliancePolicy",
     "description":  "This compliance policy is the minimum security configuration for personal and supervised devices where users access work or school data. This configuration is applicable to most mobile users.",
-    "displayName":  "iOS/iPadOS basic security compliance (Level 1) v1.0",
+    "displayName":  "iOS/iPadOS basic security compliance (Level 1) v1.1",
     "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
     "passcodeBlockSimple":  true,
     "passcodeExpirationDays":  null,
@@ -12,7 +12,7 @@
     "passcodeMinimumCharacterSetCount":  null,
     "passcodeRequiredType":  "numeric",
     "passcodeRequired":  true,
-    "osMinimumVersion":  "13.7",
+    "osMinimumVersion":  "14.8",
     "osMaximumVersion":  null,
     "osMinimumBuildVersion":  null,
     "osMaximumBuildVersion":  null,

@@ -5,7 +5,7 @@
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "description":  "This device restriction configuration policy introduces data transfer controls for managed apps. This is the configuration that is applicable to most mobile users accessing work or school data using supervised devices.",
-    "displayName":  "iOS/iPadOS Supervised enhanced security configuration (Level 2) v1.1",
+    "displayName":  "iOS/iPadOS Supervised enhanced security configuration (Level 2) v1.2",
     "accountBlockModification":  false,
     "activationLockAllowWhenSupervised":  true,
     "airDropBlocked":  false,
@@ -190,6 +190,9 @@
     "autoUnlockBlocked":  false,
     "unpairedExternalBootToRecoveryAllowed":  false,
     "onDeviceOnlyDictationForced":  true,
+    "wiFiConnectToAllowedNetworksOnlyForced":  false,
+    "onDeviceOnlyTranslationForced":  true,
+    "managedPasteboardRequired":  true,
     "kioskModeAppType":  "notConfigured",
     "appsSingleAppModeList":  [
 
