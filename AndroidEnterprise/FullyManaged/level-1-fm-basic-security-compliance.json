@@ -1,8 +1,8 @@
 {
     "@odata.type":  "#microsoft.graph.androidDeviceOwnerCompliancePolicy",
     "description":  "Level 1 is the minimum security configuration for an enterprise mobile device owned by the organization.",
-    "displayName":  "Fully managed basic security compliance (Level 1) v1.1",
-  "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
+    "displayName":  "Fully managed basic security compliance (Level 1) v1.2",
+    "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
     "deviceThreatProtectionEnabled":  false,
     "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
     "advancedThreatProtectionRequiredSecurityLevel":  "unavailable",
@@ -23,5 +23,6 @@
     "passwordMinutesOfInactivityBeforeLock":  5,
     "passwordExpirationDays":  null,
     "passwordPreviousPasswordCountToBlock":  null,
-    "storageRequireEncryption":  true
+    "storageRequireEncryption":  true,
+    "securityRequireIntuneAppIntegrity":  true
 }

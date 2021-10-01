@@ -1,14 +1,14 @@
 {
     "@odata.type":  "#microsoft.graph.androidDeviceOwnerCompliancePolicy",
     "description":  "This compliance policy is for devices used by specific users or groups who are uniquely high risk (for example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization).",
-    "displayName":  "Fully managed high security compliance (Level 3)",
-  "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
+    "displayName":  "Fully managed high security compliance (Level 3) v1.1",
+    "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
     "deviceThreatProtectionEnabled":  true,
     "deviceThreatProtectionRequiredSecurityLevel":  "secured",
     "advancedThreatProtectionRequiredSecurityLevel":  "secured",
     "securityRequireSafetyNetAttestationBasicIntegrity":  true,
     "securityRequireSafetyNetAttestationCertifiedDevice":  true,
-    "osMinimumVersion":  "10.0",
+    "osMinimumVersion":  "11.0",
     "osMaximumVersion":  null,
     "minAndroidSecurityPatchLevel":  null,
     "passwordRequired":  true,
@@ -23,5 +23,6 @@
     "passwordMinutesOfInactivityBeforeLock":  5,
     "passwordExpirationDays":  365,
     "passwordPreviousPasswordCountToBlock":  5,
-    "storageRequireEncryption":  true
-}
+    "storageRequireEncryption":  true,
+    "securityRequireIntuneAppIntegrity":  true
+}    

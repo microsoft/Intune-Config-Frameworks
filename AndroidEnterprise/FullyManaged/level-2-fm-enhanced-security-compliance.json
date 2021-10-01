@@ -1,8 +1,8 @@
 {
     "@odata.type":  "#microsoft.graph.androidDeviceOwnerCompliancePolicy",
     "description":  "This compliance policy is the security configuration recommended as a standard for organization owned devices where users access more sensitive information.",
-    "displayName":  "Fully managed enhanced security compliance (Level 2) v1.1",
-  "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
+    "displayName":  "Fully managed enhanced security compliance (Level 2) v1.2",
+    "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
     "deviceThreatProtectionEnabled":  false,
     "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
     "advancedThreatProtectionRequiredSecurityLevel":  "unavailable",
@@ -23,5 +23,6 @@
     "passwordMinutesOfInactivityBeforeLock":  5,
     "passwordExpirationDays":  365,
     "passwordPreviousPasswordCountToBlock":  5,
-    "storageRequireEncryption":  true
+    "storageRequireEncryption":  true,
+    "securityRequireIntuneAppIntegrity":  true
 }
