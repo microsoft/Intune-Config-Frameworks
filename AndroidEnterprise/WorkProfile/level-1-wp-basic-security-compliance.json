@@ -1,7 +1,7 @@
 {
   "@odata.type": "#microsoft.graph.androidWorkProfileCompliancePolicy",
   "description": "This compliance policy is the minimum security configuration for personal devices where users access work or school data. This configuration is applicable to most mobile users.",
-  "displayName": "Work profile basic security compliance (Level 1) v1.2",
+  "displayName": "Work profile basic security compliance (Level 1) v1.3",
   "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
     "passwordRequired":  true,
     "passwordMinimumLength":  6,
@@ -26,5 +26,5 @@
     "securityRequireGooglePlayServices":  true,
     "securityRequireUpToDateSecurityProviders":  true,
     "securityRequireCompanyPortalAppIntegrity":  true,
-    "securityRequiredAndroidSafetyNetEvaluationType":  "basic"
+    "securityRequiredAndroidSafetyNetEvaluationType":  "hardwareBacked"
 }
