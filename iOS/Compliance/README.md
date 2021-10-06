@@ -12,7 +12,7 @@ The iOS/iPadOS security configuration framework is organized into several distin
 
 For device compliance:
 
-- Basic security (Level 1) – Microsoft recommends this configuration as the minimum security configuration for personally owned and supervised devices where users access work or school data. This is done by enforcing password policies and ensuring the device is not jailbroken. This configuration is applicable to most mobile users accessing work or school data on a device.
+- Enhanced security (Level 2) – Microsoft recommends this configuration as the minimum security configuration for personally owned and supervised devices where users access work or school data. This is done by enforcing password policies and ensuring the device is not jailbroken. This configuration is applicable to most mobile users accessing work or school data on a device.
 - High security (Level 3) – Microsoft recommends this configuration for devices used by specific users or groups who are uniquely high risk (users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization). This configuration enacts stronger password policies and requires a mobile threat defense solution.
 
 For more information, see [iOS/iPadOS Security Configuration Framework](https://docs.microsoft.com/mem/intune/enrollment/ios-ipados-configuration-framework).
