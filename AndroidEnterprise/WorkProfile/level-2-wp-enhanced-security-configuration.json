@@ -4,7 +4,7 @@
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "description":  "This device restriction configuration policy is the minimum security configuration for personally owned devices where users access work or school data. This configuration is applicable to most mobile users.",
-    "displayName":  "Work profile basic security configuration (Level 1) v1.2",
+    "displayName":  "Work profile enhanced security configuration (Level 2) v1.3",
     "passwordBlockFaceUnlock":  false,
     "passwordBlockFingerprintUnlock":  false,
     "passwordBlockIrisUnlock":  false,
