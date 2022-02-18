@@ -4,17 +4,20 @@
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "description":  "This compliance policy is for devices used by specific users or groups who are uniquely high risk (for example, users who handle highly sensitive data where unauthorized disclosure causes considerable material loss to the organization).",
-    "displayName":  "Fully managed high security configuration (Level 3) v1.1",
+    "displayName":  "Fully managed high security configuration (Level 3) v1.2",
     "accountsBlockModification":  null,
     "appsAllowInstallFromUnknownSources":  null,
     "appsAutoUpdatePolicy":  "always",
     "appsDefaultPermissionPolicy":  null,
     "appsRecommendSkippingFirstUseHints":  null,
     "bluetoothBlockConfiguration":  null,
-    "bluetoothBlockContactSharing":  null,
+    "bluetoothBlockContactSharing":  false,
     "cameraBlocked":  null,
     "cellularBlockWiFiTethering":  true,
     "certificateCredentialConfigurationDisabled":  true,
+    "crossProfilePoliciesAllowCopyPaste":  null,
+    "crossProfilePoliciesAllowDataSharing":  null,
+    "crossProfilePoliciesShowWorkContactsInPersonalProfile":  null,
     "microsoftLauncherConfigurationEnabled":  null,
     "microsoftLauncherCustomWallpaperEnabled":  null,
     "microsoftLauncherCustomWallpaperImageUrl":  null,
@@ -96,9 +99,7 @@
     "passwordRequiredType":  "numericComplex",
     "passwordSignInFailureCountBeforeFactoryReset":  5,
     "playStoreMode":  null,
-    "safeBootBlocked":  true,
     "screenCaptureBlocked":  null,
-    "securityAllowDebuggingFeatures":  null,
     "securityDeveloperSettingsEnabled":  null,
     "securityRequireVerifyApps":  true,
     "statusBarBlocked":  null,
@@ -122,6 +123,7 @@
     "personalProfileAppsAllowInstallFromUnknownSources":  null,
     "personalProfileCameraBlocked":  null,
     "personalProfileScreenCaptureBlocked":  null,
+    "personalProfilePlayStoreMode":  "notConfigured",
     "workProfilePasswordExpirationDays":  365,
     "workProfilePasswordMinimumLength":  6,
     "workProfilePasswordMinimumNumericCharacters":  null,
@@ -144,5 +146,11 @@
                                 ],
     "kioskModeAppPositions":  [
 
-                              ]
+                              ],
+    "systemUpdateFreezePeriods":  [
+
+                                  ],
+    "personalProfilePersonalApplications":  [
+
+                                            ]
 }

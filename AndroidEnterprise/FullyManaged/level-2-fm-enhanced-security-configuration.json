@@ -4,7 +4,7 @@
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
     "description":  "This configuration policy is the security configuration recommended as a standard for organization owned devices where users access more sensitive information.",
-    "displayName":  "Fully managed enhanced security configuration (Level 2) v1.1",
+    "displayName":  "Fully managed enhanced security configuration (Level 2) v1.2",
     "accountsBlockModification":  null,
     "appsAllowInstallFromUnknownSources":  null,
     "appsAutoUpdatePolicy":  "wiFiOnly",
@@ -15,6 +15,9 @@
     "cameraBlocked":  null,
     "cellularBlockWiFiTethering":  null,
     "certificateCredentialConfigurationDisabled":  true,
+    "crossProfilePoliciesAllowCopyPaste":  null,
+    "crossProfilePoliciesAllowDataSharing":  null,
+    "crossProfilePoliciesShowWorkContactsInPersonalProfile":  null,
     "microsoftLauncherConfigurationEnabled":  null,
     "microsoftLauncherCustomWallpaperEnabled":  null,
     "microsoftLauncherCustomWallpaperImageUrl":  null,
@@ -95,9 +98,7 @@
     "passwordRequiredType":  "numericComplex",
     "passwordSignInFailureCountBeforeFactoryReset":  5,
     "playStoreMode":  null,
-    "safeBootBlocked":  true,
     "screenCaptureBlocked":  null,
-    "securityAllowDebuggingFeatures":  null,
     "securityDeveloperSettingsEnabled":  null,
     "securityRequireVerifyApps":  true,
     "statusBarBlocked":  null,
@@ -121,6 +122,7 @@
     "personalProfileAppsAllowInstallFromUnknownSources":  null,
     "personalProfileCameraBlocked":  null,
     "personalProfileScreenCaptureBlocked":  null,
+    "personalProfilePlayStoreMode":  null,
     "workProfilePasswordExpirationDays":  365,
     "workProfilePasswordMinimumLength":  6,
     "workProfilePasswordMinimumNumericCharacters":  null,
@@ -143,5 +145,11 @@
                                 ],
     "kioskModeAppPositions":  [
 
-                              ]
+                              ],
+    "systemUpdateFreezePeriods":  [
+
+                                  ],
+    "personalProfilePersonalApplications":  [
+
+                                            ]
 }
